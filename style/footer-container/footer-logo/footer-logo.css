@@ -1,0 +1,8 @@
+@import "../footer-logo/__img/footer-logo__img.css";
+@import "../footer-logo/__link/footer-logo__link.css";
+@import "../footer-logo/__text/footer-logo__text.css";
+
+.footer-logo {
+    margin-left: 250px;
+    margin-top: 20px;
+}

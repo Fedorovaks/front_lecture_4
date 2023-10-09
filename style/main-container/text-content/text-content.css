@@ -1,0 +1,7 @@
+@import "../text-content/description/description.css";
+@import "../text-content/resources/resources.css";
+
+.text-content {
+    width: 50%;
+    margin: 40px;
+}

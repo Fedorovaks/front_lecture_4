@@ -1,0 +1,10 @@
+@import "../footer-about/__img/footer-about__img.css";
+@import "../footer-logo/__link/footer-about__link.css";
+@import "../footer-about/__text/footer-about__text.css";
+
+.footer-about {
+    list-style: none;
+    width: 70%;
+    margin-left: 210px;
+    border-top: 1px solid #858585;
+}

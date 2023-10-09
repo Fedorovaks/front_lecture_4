@@ -1,6 +1,10 @@
 @import "../footer-container/footer-menu/footer-menu.css";
+@import "../footer-container/footer-logo/footer-logo.css";
+@import "../footer-container/footer-about/footer-about.css";
+
 
 .footer-container {
     display: flex;
     background-color: #343434;
+    flex-wrap: wrap;
 }
