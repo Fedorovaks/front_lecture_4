@@ -3,11 +3,10 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="../style/header/header.css">
-    <link rel="stylesheet" href="../style/main-container/main-container.css">
-    <link rel="stylesheet" href="../style/footer-container/footer-container.css">
-
     <link rel="stylesheet" href="../style/normalize.css">
+    <link rel="stylesheet" href="../style/general.css">
+    <script src="https://use.fontawesome.com/065c67f465.js"></script>
+
 </head>
 
 <body>
@@ -31,12 +30,14 @@
                     <li class="menu__item"><a class="menu__link" href="#">Play</a></li>
                     <li class="menu__item"><a class="menu__link" href="#">Al Help</a></li>
                 </ul>
+                <button class="head_custom-button"><i class="fa fa-moon-o" aria-hidden="true"></i>Theme</button>
                 <form action="#" class="form-search">
-                    <input type="search" class="form-search__input" name="q" placeholder=" ___" required="" value="">
-                    <button type="submit" class="form-search__button_black"></button>
+                    <input type="search" class="form-search__input_transparent" name="q" placeholder=" ___" required="" value="">
+                    <button type="submit" class="form-search__button_transparent"><i class="fa fa-search" aria-hidden="true"></i></button>
 
                 </form>
                 <a class="head__auth-link" href="#">Log in</a>
+                <input class="button-subscription" type="button" value="Sign up for free">
 
 
             </div>
@@ -58,28 +59,35 @@
     <main class="main-container">
         <aside class="list-content">
             <ul class="navigation">
-                <li class="navigation__item"><a class="navigation__link" href="#">HTML</a></li>
-                <li class="navigation__item">Tutorials</li>
-                <li class="navigation__item">HTML basics</li>
-                <li class="navigation__item">Introduction to HTML</li>
-                <li class="navigation__item">Multimedia and embedding</li>
-                <li class="navigation__item">HTML tables</li>
-                <li class="navigation__item">References</li>
-                <li class="navigation__item">HTML elements</li>
-                <li class="navigation__item">Global attributes</li>
-                <li class="navigation__item">Attributes</li>
-                <li class="navigation__item">&lt;input&gt;types</li>
-                <li class="navigation__item">Guides</li>
-                <li class="navigation__item">Content categories</li>
-                <li class="navigation__item">Block-level elements</li>
-                <li class="navigation__item">Inline elements</li>
-                <li class="navigation__item">Quirks Mode and Standards Mode</li>
-                <li class="navigation__item">Date and time formats used in HTML</li>
-                <li class="navigation__item">Constraint validation</li>
-                <li class="navigation__item">Microdata</li>
-                <li class="navigation__item">Microformats</li>
-                <li class="navigation__item">Viewport meta tag</li>
-                <li class="navigation__item">Allowing cross-origin use of images and canvas</li>
+                <li class="navigation__item_strong"><a class="navigation__link" href="#">HTML</a></li>
+                <li class="navigation__item_strong"><a class="navigation__link" href="#">Tutorials</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">HTML basics</a></li>
+                <li class="navigation__item"><details class="navigation__item_close"><summary class="navigation__title_close">Introduction to HTML</summary></details></li>
+                <li class="navigation__item"><details class="navigation__item_close"><summary class="navigation__title_close">Multimedia and embedding</summary></details></li>
+                <li class="navigation__item"><details class="navigation__item_close"><summary class="navigation__title_close">HTML tables</summary></details></li>
+                <li class="navigation__item_strong">References</li>
+                <li class="navigation__item"><details class="navigation__item_close"> <summary class="navigation__title_close">HTML elements</summary></details></li>
+                <li class="navigation__item"><details class="navigation__item_close"> <summary class="navigation__title_close">Global attributes</summary></details></li>
+                <li class="navigation__item"><details class="navigation__item_close"> <summary class="navigation__title_close">Attributes</summary></details></li>
+                <li class="navigation__item"><details class="navigation__item_close"> <summary class="navigation__title_close">&lt;input&gt;types</summary></details></li>
+                <li class="navigation__item_strong">Guides</li>
+                <li class="navigation__item_padding_left"><a class="navigation__link" href="#">Content categories</a>
+                </li>
+                <li class="navigation__item_padding_left"><a class="navigation__link" href="#">Block-level elements</a>
+                </li>
+                <li class="navigation__item_padding_left"><a class="navigation__link" href="#">Inline elements</a></li>
+                <li class="navigation__item_padding_left"><a class="navigation__link" href="#">Quirks Mode and Standards
+                        Mode</a></li>
+                <li class="navigation__item_padding_left"><a class="navigation__link" href="#">Date and time formats
+                        used in HTML</a></li>
+                <li class="navigation__item_padding_left"><a class="navigation__link" href="#">Constraint validation</a>
+                </li>
+                <li class="navigation__item_padding_left"><a class="navigation__link" href="#">Microdata</a></li>
+                <li class="navigation__item_padding_left"><a class="navigation__link" href="#">Microformats</a></li>
+                <li class="navigation__item_padding_left"><a class="navigation__link" href="#">Viewport meta tag</a>
+                </li>
+                <li class="navigation__item_padding_left"><a class="navigation__link" href="#">Allowing cross-origin use
+                        of images and canvas</a></li>
 
             </ul>
 
@@ -122,7 +130,7 @@
                 </div>
 
                 <div class="resources">
-                    <h2 class="resources__title">Key resources</h2>
+                    <div class="resources__title">Key resources</div>
                     <div class="annotation">
                         <h3 class="annotation__title">HTML Introduction</h3>
                         <div class="annotation__item">If you're new to web development, be sure to read our HTML Basics
@@ -138,7 +146,7 @@
             </div>
 
             <div class="nav-content">
-                <ul class="nav-content__title">
+                <ul class="nav-content__title"> In this article
                     <li class="nav-content__item"><a href="#" class="nav-content__link">Key resources</a></li>
                     <li class="nav-content__item"><a href="#" class="nav-content__link">Beginner's tutorials</a></li>
                     <li class="nav-content__item"><a href="#" class="nav-content__link">Advanced topics</a></li>
@@ -196,7 +204,7 @@
 
         <ul class="footer-about">
             <li class="footer-about__item"><a class="footer-about__link" href="#"><img class="footer-about__img"
-                        src=""></a></li>
+                        src="../image/about.png"></a></li>
             <li class="footer-about__item"><a class="footer-about__link" href="#">Website Privacy Notice</a></li>
             <li class="footer-about__item"><a class="footer-about__link" href="#">Cookies</a></li>
             <li class="footer-about__item"><a class="footer-about__link" href="#">Legal</a></li>
@@ -205,7 +213,9 @@
 
         </ul>
         <div class="footer-copyright">
-
+            <p class="footer-copyright__text">Visit Mozilla Corporation’s not-for-profit parent, the <a
+                    class="footer-copyright__link" href="#">Mozilla Foundation</a>.
+                Portions of this content are ©1998–2023 by individual mozilla.org contributors. Content available under a <a class="footer-copyright__link" href="#">Creative Commons license.</a></p>
         </div>
 
 

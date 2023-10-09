@@ -1,0 +1,10 @@
+.form-search__button_transparent {
+    background: transparent;
+    border: none;
+    position: relative;
+    right:40px;
+}
+
+.fa-search {
+    color:var(--link-color);
+}
