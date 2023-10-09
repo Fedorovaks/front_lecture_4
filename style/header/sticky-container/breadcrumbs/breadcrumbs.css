@@ -1,0 +1,10 @@
+@import "../breadcrumbs/__item/breadcrumbs__item.css";
+@import "../breadcrumbs/__link/breadcrumbs__link.css";
+
+.breadcrumbs {
+    display: flex;
+    list-style: none;
+    background-color: #343434;
+    margin: 0;
+ 
+}

@@ -1,0 +1,8 @@
+@import "../footer-menu/__item/footer-menu__item.css";
+@import "../footer-menu/__link/footer-menu__link.css";
+@import "../footer-menu/__title/footer-menu__title.css";
+
+.footer-menu {
+    list-style: none;
+    margin-left: 100px;
+}

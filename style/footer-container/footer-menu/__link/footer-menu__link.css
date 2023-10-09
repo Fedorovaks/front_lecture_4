@@ -1,0 +1,4 @@
+.footer-menu__link {
+    color: var(--link-color);
+    text-decoration: none;
+}

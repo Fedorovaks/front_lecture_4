@@ -1,0 +1,4 @@
+@import "../custom-banner/__text/custom-banner__text.css";
+@import "../custom-banner/__link/custom-banner__link.css";
+
+.custom-banner {background-color: #343434;}

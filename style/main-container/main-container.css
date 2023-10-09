@@ -1,0 +1,8 @@
+@import "../main-container/text-content/list-content.css";
+@import "../main-container/text-content/text-content.css";
+@import "../main-container/nav-content/nav-content.css";
+
+.main-container {
+    display: flex;
+    background-color:#1b1b1b ;
+}

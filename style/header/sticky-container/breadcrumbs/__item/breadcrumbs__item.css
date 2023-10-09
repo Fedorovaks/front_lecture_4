@@ -1,0 +1,9 @@
+.breadcrumbs__item {
+    padding: 10px;
+    padding-left: 20px;
+}
+.breadcrumbs__item:not(:last-child):after {
+    content: ">";
+    color:var(--link-color);
+    padding-left: 15px;
+}
