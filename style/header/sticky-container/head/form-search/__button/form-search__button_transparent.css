@@ -1,6 +1,6 @@
 .form-search__button_transparent {
     background: transparent;
-    border: none;
+    border: none; /* Хороший кандидат на вынос в класс button*/
     position: relative;
     right:40px;
 }

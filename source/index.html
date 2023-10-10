@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<!--Внутри head всегда должен быть title-->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="../style/normalize.css">
@@ -10,14 +10,15 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="custom-banner">
+    <header class="header"> <!--Класс header нигде не используется, соответственно можно от него избавиться -->
+        <div class="custom-banner"> <!--Здесь бэм применен хорошо. И я бы вынес это вне header, эта вещь сама по себе, она мало относится к шапке (ну крому того, что оно наверху)ю Небольшое замечание по поводу названия: это наверное что-то вроде 'top-banner', 'ad-banner' и тп. Просто custom-banner слишком обобщенное.  -->
             <div class="custom-banner__text">Get real-time assistance with your coding queries. Try <a
                     class="custom-banner__link" href="#">AI Help</a> now!</div>
         </div>
+
         <div class="sticky-container">
             <div class="head">
-                <div class="logo">
+                <div class="logo"> <!--Хорошо использован бэм-->
                     <a class="logo__link" href="#">
                         <img class="logo__img" src="../image/logo.png">
                     </a>
@@ -30,6 +31,7 @@
                     <li class="menu__item"><a class="menu__link" href="#">Play</a></li>
                     <li class="menu__item"><a class="menu__link" href="#">Al Help</a></li>
                 </ul>
+                <!--custom-button оформлен как модификатор, хотя это больше похоже на элемент блока -->
                 <button class="head_custom-button"><i class="fa fa-moon-o" aria-hidden="true"></i>Theme</button>
                 <form action="#" class="form-search">
                     <input type="search" class="form-search__input_transparent" name="q" placeholder=" ___" required="" value="">
@@ -38,12 +40,10 @@
                 </form>
                 <a class="head__auth-link" href="#">Log in</a>
                 <input class="button-subscription" type="button" value="Sign up for free">
-
-
             </div>
+
             <div class="breadcrumbs-container">
                 <ul class="breadcrumbs">
-
                     <li class="breadcrumbs__item">
                         <a class="breadcrumbs__link" href="#">References</a>
                     </li>
@@ -53,12 +53,11 @@
                 </ul>
             </div>
         </div>
-
-
     </header>
+
     <main class="main-container">
         <aside class="list-content">
-            <ul class="navigation">
+            <ul class="navigation"> <!--Неплохо использован БЭМ. Разве что с именованием небольшие недочеты. Например navigation__item_padding_left можно заменить на navigation__item_left-aligned-->
                 <li class="navigation__item_strong"><a class="navigation__link" href="#">HTML</a></li>
                 <li class="navigation__item_strong"><a class="navigation__link" href="#">Tutorials</a></li>
                 <li class="navigation__item"><a class="navigation__link" href="#">HTML basics</a></li>
@@ -94,6 +93,7 @@
         </aside>
         <div class="text-content">
             <div class="description">
+                <!--Название h1 не лучшее в данном кейсе. Тут лучше подошло бы description__heading, например. Просто h1 это глобальный тег, и использовать его в названии локального элемента не очень. Это же касается и других тегов-->
                 <div class="description__h1">HTML: HyperText Markup Language</div>
                 <div class="description__item">
                     HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning
@@ -159,6 +159,7 @@
 
 
     </main>
+
     <footer class="footer-container">
         <div class="footer-logo">
             <a class="footer-logo__link" href="#">

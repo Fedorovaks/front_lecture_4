@@ -3,7 +3,7 @@
 
 .breadcrumbs-container {
     background-color: #343434;
-    border-bottom: 1px solid #858585;
+    border-bottom: 1px solid #858585; /*Этот цвет встречается несколько раз. Хороший кандидат на вынос в отдельную переменную*/
 }
 
 .breadcrumbs{
