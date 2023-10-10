@@ -1,0 +1,10 @@
+@import "../menu/__item/menu__item.css";
+@import "../menu/__link/menu__link.css";
+
+.menu {
+    display: flex;
+}
+.menu__item {
+    margin: 10px 30px;
+    font-size: 18px;
+}

@@ -1,0 +1,16 @@
+.nav-content__caption {
+    color: var(--link-color);
+    font-family: var(--font-family);
+    font-size: 18px;
+    margin-top: 60px;
+    line-height: 2.2;
+}
+
+.nav-content__item {
+    border-left: 1px solid;
+}
+
+.nav-content__link {
+    font-size: 14px;
+    padding-left: 10px;
+}

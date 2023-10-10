@@ -1,2 +1,16 @@
-@import "../description/__h1/description__h1.css";
-@import "../description/__item/description__item.css";
+.description__caption {
+    color: white;
+    font-size: 38px;
+    padding: 30px 40px;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+
+.description__item {
+    color: white;
+    font-size: 18px;
+    font-family: var(--font-family);
+    margin: 30px 40px;
+    line-height: 1.5;
+    text-align: justify;
+}

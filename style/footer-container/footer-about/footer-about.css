@@ -1,24 +1,13 @@
-@import "../footer-about/__img/footer-about__img.css";
-@import "../footer-logo/__link/footer-about__link.css";
-@import "../footer-about/__text/footer-about__text.css";
-
 .footer-about {
-    list-style: none;
-    width: 70%;
-    /*
-    Блок не должен влиять на свое окружение. Это независимая единица. Например, если ты сейчас возьмешь footer-about блок целиком и просто скопипастишь в другое место, в котором отступ не нужен, у тебя этот отступ сохранится.
-    В данном случае правильно было бы сделать так добавить элемент footer-container__item (например) и уже ему задавать отступы. Получится, что отступы слева нужны конкретно в месте с футером и footer-about можно переносить везде.
-    Я не стану отмечать другие такие места, но если еще где-то похожая ошибка есть, то стоит пофиксить.
-    Вообще, если где-то встречается такой большой отступ, то это повод задумать о том, что что-то идет не так. Вместо этого стоит посмотреть в сторону flex и grid
-    */
-    margin-left: 180px;
-    border-top: 1px solid #858585;
+    width: 80%;
     display: flex;
-
+    border-top: var(--border);
 }
 
 .footer-about__item {
-    margin: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
 }
 
 .footer-about__link {
@@ -27,7 +16,7 @@ font-size: 14px;
 }
 
 .footer-copyright {
-    margin-left: 200px;
+  width: 80%;
 }
 
 .footer-copyright__text{

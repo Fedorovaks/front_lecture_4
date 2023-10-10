@@ -1,7 +1,0 @@
-@import "../menu/__item/menu__item.css";
-@import "../menu/__link/menu__link.css";
-
-.menu {
-    display: flex;
-    list-style: none;
-}

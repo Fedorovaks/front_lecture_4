@@ -1,0 +1,25 @@
+@import "../head/form-search/form-search.css";
+@import "../head/logo/logo.css";
+@import "../head/menu/menu.css";
+
+.head {
+    background-color: #1b1b1b;
+    display: flex;
+    border-bottom: 1px solid #858585
+}
+
+.head__custom-button {
+    color: var(--link-color);
+    background: transparent;
+}
+
+.head__auth-link {
+    margin-top: 25px;
+    font-family: var(--font-family);
+}
+
+.button-subscription {
+    margin-left: 10px;
+    height: 35px;
+    margin-top: 18px;
+}

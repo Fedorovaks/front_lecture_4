@@ -1,8 +1,12 @@
-@import "../footer-logo/__img/footer-logo__img.css";
-@import "../footer-logo/__link/footer-logo__link.css";
-@import "../footer-logo/__text/footer-logo__text.css";
-
 .footer-logo {
-    margin-left: 10%;
+    width: 20%;
+}
+
+.footer-logo__img {
     margin-top: 20px;
+}
+
+.footer-logo__text {
+    color: var(--link-color);
+
 }

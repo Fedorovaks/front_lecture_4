@@ -1,11 +1,14 @@
-@import "../footer-menu/__item/footer-menu__item.css";
-@import "../footer-menu/__link/footer-menu__link.css";
-@import "../footer-menu/__title/footer-menu__title.css";
-
 .footer-menu {
-    list-style: none;
-    margin-left: 5%;
+width: 12%;
+}
+
+.footer-menu__caption {
+    color: var(--link-color);
+    font-size: 18px;
+    font-weight: bold;
     margin-top: 20px;
+}
 
-
+.footer-menu__item {
+    margin: 10px 0px;
 }

@@ -1,7 +1,0 @@
-@import "../header/custom-banner/custom-banner.css";
-@import "../header/sticky-container/sticky-container.css";
-
-:root {
-    --link-color: #cdcdcd;
-    --font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }

@@ -1,0 +1,24 @@
+.resources {
+    color: white;
+    font-family: var(--font-family);
+    
+}
+
+.resources__caption {
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 32px;
+    margin: 30px 40px;
+}
+
+.annotation__caption {
+    font-weight: normal;
+    margin: 30px 40px;
+}
+
+.annotation__item {
+    padding-left: 15px;
+    line-height: 1.5;
+    margin: 30px 40px;
+}

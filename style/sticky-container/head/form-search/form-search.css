@@ -1,0 +1,25 @@
+@import "../form-search/__input/form-search__input_transparent.css";
+@import "../form-search/__button/form-search__button_transparent.css";
+
+.form-search {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.form-search__button_transparent {
+    background: transparent;
+    position: relative;
+    right: 40px;
+}
+
+.fa-search {
+    color: var(--link-color);
+}
+
+.form-search__input_transparent {
+    border-radius: 200px;
+    width: 80px;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid var(--link-color);
+}
