@@ -1,5 +1,8 @@
-.description__caption {
+.description {
     color: white;
+}
+
+.description__caption {
     font-size: 38px;
     padding: 30px 40px;
     font-family: var(--font-family);
@@ -7,7 +10,6 @@
 }
 
 .description__item {
-    color: white;
     font-size: 18px;
     font-family: var(--font-family);
     margin: 30px 40px;

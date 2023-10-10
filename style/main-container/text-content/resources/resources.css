@@ -10,14 +10,15 @@
     font-size: 32px;
     margin: 30px 40px;
 }
+.annotation {
+    line-height: 1.5;
+}
 
 .annotation__caption {
     font-weight: normal;
-    margin: 30px 40px;
+    margin-left: 40px;
 }
 
 .annotation__item {
-    padding-left: 15px;
-    line-height: 1.5;
-    margin: 30px 40px;
+    margin-left: 55px;
 }

@@ -1,9 +1,12 @@
-.nav-content__caption {
+.nav-content {
+    line-height: 2.2;
     color: var(--link-color);
     font-family: var(--font-family);
+}
+
+.nav-content__caption {
     font-size: 18px;
     margin-top: 60px;
-    line-height: 2.2;
 }
 
 .nav-content__item {
