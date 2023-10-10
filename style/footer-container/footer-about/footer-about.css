@@ -7,23 +7,22 @@
 .footer-about__item {
     margin-right: 10px;
     margin-top: 10px;
-
 }
 
 .footer-about__link {
-color: var(--link-color);
-font-size: 14px;
+    color: var(--link-color);
+    font-size: 14px;
 }
 
 .footer-copyright {
-  width: 80%;
+    width: 80%;
 }
 
-.footer-copyright__text{
+.footer-copyright__text {
     color: var(--link-color);
-    white-space:pre-line;
+    white-space: pre-line;
 }
 
-.footer-copyright__link{
+.footer-copyright__link {
     color: var(--link-color);
 }

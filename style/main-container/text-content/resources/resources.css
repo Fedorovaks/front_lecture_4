@@ -1,7 +1,6 @@
 .resources {
     color: white;
-    font-family: var(--font-family);
-    
+    font-family: var(--font-family); 
 }
 
 .resources__caption {
