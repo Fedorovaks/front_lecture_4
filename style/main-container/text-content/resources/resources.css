@@ -4,8 +4,6 @@
 }
 
 .resources__caption {
-    color: white;
-    font-family: var(--font-family);
     font-weight: 500;
     font-size: 32px;
     margin: 30px 40px;
